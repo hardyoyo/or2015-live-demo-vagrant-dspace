@@ -1,0 +1,15 @@
+﻿OR2015 Live Demo: Vagrant-DSpace
+
+
+SLIDES
+
+title slide
+ - show of hands, who here has used Vagrant before
+ - who has used Vagrant-DSpace?
+ - can I ask why you're here?
+ - Not trying to be funny, I just want to be sure if you have expectations that I meet them.
+
+introduce myself slide
+map of USA
+complain a lot
+
