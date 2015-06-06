@@ -4,12 +4,32 @@
 SLIDES
 
 title slide
- - show of hands, who here has used Vagrant before
+ - show of hands, who here has used Vagrant before?
  - who has used Vagrant-DSpace?
  - can I ask why you're here?
  - Not trying to be funny, I just want to be sure if you have expectations that I meet them.
+ - keep your hands up, everyone look around, the people with their hands up, that's your community, if you run into trouble: ask them, they know things
 
-introduce myself slide
-map of USA
-complain a lot
+ I have to tell you, I spend a lot of time working on "just a few" slides for this demo, to introduce Vagrant and tell the story of Vagran-DSpace, but when I was done, I had 17 slides, and frankly, I have about 10 minutes to show you something, so, here we go:
+ 
+ https://github.com/dspace/vagrant-dspace
+ https://www.vagrantup.com/
+ 
+This is Vagrant-DSpace
+And this is Vagrant
 
+Vagrant is a wrapper that combines a virtual machine with various provisioning technologies. Vagrant is a program you download, and after you install it, you can run a simple command within the Vagrant-DSpace folder, and when it's done running, you'll have a complete development environment. What kind of time investment are we talking about? With a typical broadband connection, you can go from a new machine to being able to work productively with DSpace in about an hour or less. That includes downloading and installing Virtual Box and Vagrant, and the first download of our base machine.
+
+Vagrant doesn't deserve all the credit for this. As I said, it's a wrapper for managing a virtual machine, and running a provisioner on a virtual machine. The provisioner we chose to use is Puppet:
+
+http://devopsreactions.tumblr.com/post/118432149429/explaining-puppet-to-management
+
+OK, it's not quite that fast. The first provisioning from our base machine typically takes about 15 minutes, on a typical broadband connection. So, I'm not going to show you that first provisioning, trust me, it works, but     15 minutes of green text scrolling by is not exactly fun. Instead I'm going to show you what it looks like to spin up an already provisioned machine, so I can show you something useful.
+
+overview of the Vagrantfile
+
+overview of our configuration customs, especially local.yaml and local-bootstrap.sh
+
+
+
+how to get content into your dev environment
